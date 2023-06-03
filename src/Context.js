@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from "react";
 import { useCallback } from "react";
 import Pagination from "./components/Pagination";
-const URL = "http://openlibrary.org/search.json?q=";
+const URL = "https://openlibrary.org/search.json?q=";
 const Authors_URL = "";
 const AppContext = React.createContext();
 
