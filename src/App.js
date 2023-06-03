@@ -9,7 +9,7 @@ function App() {
     <AppProvider>
       <BrowserRouter>
         <Routes>
-          <Route path="/mylibrary" element={<MyLibrary />} />
+          <Route path="/" element={<MyLibrary />} />
         </Routes>
       </BrowserRouter>
     </AppProvider>
